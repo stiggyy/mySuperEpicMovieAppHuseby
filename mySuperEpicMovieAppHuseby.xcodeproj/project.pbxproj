@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428588322B5ACB6000FFAB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588312B5ACB6000FFAB8B /* AppDelegate.swift */; };
+		428588342B5ACB6000FFAB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588332B5ACB6000FFAB8B /* SceneDelegate.swift */; };
+		428588362B5ACB6000FFAB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588352B5ACB6000FFAB8B /* ViewController.swift */; };
+		428588392B5ACB6000FFAB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428588372B5ACB6000FFAB8B /* Main.storyboard */; };
+		4285883B2B5ACB6200FFAB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4285883A2B5ACB6200FFAB8B /* Assets.xcassets */; };
+		4285883E2B5ACB6200FFAB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4285883C2B5ACB6200FFAB8B /* LaunchScreen.storyboard */; };
+		428588492B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588482B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.swift */; };
+		428588532B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588522B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.swift */; };
+		428588552B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428588542B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		428588452B5ACB6200FFAB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428588262B5ACB6000FFAB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4285882D2B5ACB6000FFAB8B;
+			remoteInfo = mySuperEpicMovieAppHuseby;
+		};
+		4285884F2B5ACB6200FFAB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428588262B5ACB6000FFAB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4285882D2B5ACB6000FFAB8B;
+			remoteInfo = mySuperEpicMovieAppHuseby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4285882E2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySuperEpicMovieAppHuseby.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428588312B5ACB6000FFAB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428588332B5ACB6000FFAB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		428588352B5ACB6000FFAB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428588382B5ACB6000FFAB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4285883A2B5ACB6200FFAB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4285883D2B5ACB6200FFAB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4285883F2B5ACB6200FFAB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428588442B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySuperEpicMovieAppHusebyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428588482B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySuperEpicMovieAppHusebyTests.swift; sourceTree = "<group>"; };
+		4285884E2B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySuperEpicMovieAppHusebyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		428588522B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySuperEpicMovieAppHusebyUITests.swift; sourceTree = "<group>"; };
+		428588542B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mySuperEpicMovieAppHusebyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4285882B2B5ACB6000FFAB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428588412B5ACB6200FFAB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4285884B2B5ACB6200FFAB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428588252B5ACB6000FFAB8B = {
+			isa = PBXGroup;
+			children = (
+				428588302B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */,
+				428588472B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests */,
+				428588512B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests */,
+				4285882F2B5ACB6000FFAB8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4285882F2B5ACB6000FFAB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4285882E2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby.app */,
+				428588442B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.xctest */,
+				4285884E2B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428588302B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */ = {
+			isa = PBXGroup;
+			children = (
+				428588312B5ACB6000FFAB8B /* AppDelegate.swift */,
+				428588332B5ACB6000FFAB8B /* SceneDelegate.swift */,
+				428588352B5ACB6000FFAB8B /* ViewController.swift */,
+				428588372B5ACB6000FFAB8B /* Main.storyboard */,
+				4285883A2B5ACB6200FFAB8B /* Assets.xcassets */,
+				4285883C2B5ACB6200FFAB8B /* LaunchScreen.storyboard */,
+				4285883F2B5ACB6200FFAB8B /* Info.plist */,
+			);
+			path = mySuperEpicMovieAppHuseby;
+			sourceTree = "<group>";
+		};
+		428588472B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests */ = {
+			isa = PBXGroup;
+			children = (
+				428588482B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.swift */,
+			);
+			path = mySuperEpicMovieAppHusebyTests;
+			sourceTree = "<group>";
+		};
+		428588512B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				428588522B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.swift */,
+				428588542B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITestsLaunchTests.swift */,
+			);
+			path = mySuperEpicMovieAppHusebyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4285882D2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428588582B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHuseby" */;
+			buildPhases = (
+				4285882A2B5ACB6000FFAB8B /* Sources */,
+				4285882B2B5ACB6000FFAB8B /* Frameworks */,
+				4285882C2B5ACB6000FFAB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mySuperEpicMovieAppHuseby;
+			productName = mySuperEpicMovieAppHuseby;
+			productReference = 4285882E2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby.app */;
+			productType = "com.apple.product-type.application";
+		};
+		428588432B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4285885B2B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHusebyTests" */;
+			buildPhases = (
+				428588402B5ACB6200FFAB8B /* Sources */,
+				428588412B5ACB6200FFAB8B /* Frameworks */,
+				428588422B5ACB6200FFAB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428588462B5ACB6200FFAB8B /* PBXTargetDependency */,
+			);
+			name = mySuperEpicMovieAppHusebyTests;
+			productName = mySuperEpicMovieAppHusebyTests;
+			productReference = 428588442B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4285884D2B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4285885E2B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHusebyUITests" */;
+			buildPhases = (
+				4285884A2B5ACB6200FFAB8B /* Sources */,
+				4285884B2B5ACB6200FFAB8B /* Frameworks */,
+				4285884C2B5ACB6200FFAB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				428588502B5ACB6200FFAB8B /* PBXTargetDependency */,
+			);
+			name = mySuperEpicMovieAppHusebyUITests;
+			productName = mySuperEpicMovieAppHusebyUITests;
+			productReference = 4285884E2B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428588262B5ACB6000FFAB8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4285882D2B5ACB6000FFAB8B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					428588432B5ACB6200FFAB8B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4285882D2B5ACB6000FFAB8B;
+					};
+					4285884D2B5ACB6200FFAB8B = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4285882D2B5ACB6000FFAB8B;
+					};
+				};
+			};
+			buildConfigurationList = 428588292B5ACB6000FFAB8B /* Build configuration list for PBXProject "mySuperEpicMovieAppHuseby" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 428588252B5ACB6000FFAB8B;
+			productRefGroup = 4285882F2B5ACB6000FFAB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4285882D2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */,
+				428588432B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests */,
+				4285884D2B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4285882C2B5ACB6000FFAB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4285883E2B5ACB6200FFAB8B /* LaunchScreen.storyboard in Resources */,
+				4285883B2B5ACB6200FFAB8B /* Assets.xcassets in Resources */,
+				428588392B5ACB6000FFAB8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428588422B5ACB6200FFAB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4285884C2B5ACB6200FFAB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4285882A2B5ACB6000FFAB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428588362B5ACB6000FFAB8B /* ViewController.swift in Sources */,
+				428588322B5ACB6000FFAB8B /* AppDelegate.swift in Sources */,
+				428588342B5ACB6000FFAB8B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428588402B5ACB6200FFAB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428588492B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4285884A2B5ACB6200FFAB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428588552B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITestsLaunchTests.swift in Sources */,
+				428588532B5ACB6200FFAB8B /* mySuperEpicMovieAppHusebyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		428588462B5ACB6200FFAB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4285882D2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */;
+			targetProxy = 428588452B5ACB6200FFAB8B /* PBXContainerItemProxy */;
+		};
+		428588502B5ACB6200FFAB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4285882D2B5ACB6000FFAB8B /* mySuperEpicMovieAppHuseby */;
+			targetProxy = 4285884F2B5ACB6200FFAB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		428588372B5ACB6000FFAB8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428588382B5ACB6000FFAB8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4285883C2B5ACB6200FFAB8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4285883D2B5ACB6200FFAB8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428588562B5ACB6200FFAB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		428588572B5ACB6200FFAB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428588592B5ACB6200FFAB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySuperEpicMovieAppHuseby/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHuseby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4285885A2B5ACB6200FFAB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySuperEpicMovieAppHuseby/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHuseby;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4285885C2B5ACB6200FFAB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHusebyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySuperEpicMovieAppHuseby.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySuperEpicMovieAppHuseby";
+			};
+			name = Debug;
+		};
+		4285885D2B5ACB6200FFAB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHusebyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySuperEpicMovieAppHuseby.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySuperEpicMovieAppHuseby";
+			};
+			name = Release;
+		};
+		4285885F2B5ACB6200FFAB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHusebyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySuperEpicMovieAppHuseby;
+			};
+			name = Debug;
+		};
+		428588602B5ACB6200FFAB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G622X5326J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.mySuperEpicMovieAppHusebyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySuperEpicMovieAppHuseby;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428588292B5ACB6000FFAB8B /* Build configuration list for PBXProject "mySuperEpicMovieAppHuseby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428588562B5ACB6200FFAB8B /* Debug */,
+				428588572B5ACB6200FFAB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428588582B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHuseby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428588592B5ACB6200FFAB8B /* Debug */,
+				4285885A2B5ACB6200FFAB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4285885B2B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHusebyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4285885C2B5ACB6200FFAB8B /* Debug */,
+				4285885D2B5ACB6200FFAB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4285885E2B5ACB6200FFAB8B /* Build configuration list for PBXNativeTarget "mySuperEpicMovieAppHusebyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4285885F2B5ACB6200FFAB8B /* Debug */,
+				428588602B5ACB6200FFAB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428588262B5ACB6000FFAB8B /* Project object */;
+}
